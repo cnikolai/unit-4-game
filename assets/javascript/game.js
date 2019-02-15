@@ -57,14 +57,16 @@ $(document).ready(function() {
       $("#player-total").text("New score: " + counter);
   
       if (counter === targetNumber) {
-          wins++;
-        console.log("You win!");
+        wins++;
+        console.log("You Win!");
         $("#aboutgame").text("You Win!");
         $("#wins").text("Wins: " + wins);
+        counter = 0;
         game();
       } else if (counter > targetNumber) {
-        console.log("You lose!!");
+        console.log("You Lose!");
         losses++;
+        counter = 0;
         $("#aboutgame").text("You Lose!");
         $("#losses").text("Losses: " + losses);
         game();
