@@ -9,17 +9,71 @@ h1, div {
 }
 
 body {
-  background-image: url("../images/fightingirishbackground.jpg");
+  /* background-image: url("../images/fightingirishbackground.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 35%;
-  background-position-y: 0;
+  background-position-y: 0; */
 }
 
-.container {
-  border: 1px solid black;
-  width: 400px;
-  position: absolute;
+#instructions {
+  /* border: 1px solid black; */
+}
+
+#container {
+  /* border: 1px solid black; */
+  width: 480px;
+  position:absolute;
   top: 25%;
   left: 25%;
+}
+
+#container1 {
+  border: 1px solid black;
+  width: 480px;
+  margin-bottom: 20px;
+  /* position: absolute; */
+  /* top: 10%; */
+  /* left: 25%; */
+}
+#container2 {
+  border: 1px solid black;
+  width: 480px;
+  /* position:absolute; */
+  /* top: 40%; */
+  /* left: 25%; */
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  /* float: left; */
+}
+
+#crystals {
+  width: 320px;
+  float: left;
+}
+
+#random-number {
+   background-color: yellowgreen;
+   /* float: left; */
+}
+
+#player-total {
+   background-color: yellowgreen;
+   /* float:left; */
+}
+
+#winslosses {
+  /* position: absolute;
+  right: 0;
+  bottom: 50; */
+  float: right;
+  background-color: rebeccapurple;
+}
+
+#row {
+  height: 120px;
+  /* overflow: auto; */
 }

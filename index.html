@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Crystal Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 <body>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <div id="container">
+    <div id="container1">
+        <div id="instructions">Each crystal has a different number associated with it.  Click on the crystal to add to your score.  Total the target number and win!</div>
+    </div>
+  <div id="container2">
+    <div id="random-number"></div>
+    <div id="row">
+      <div id="crystals"></div> 
+      <div id="winslosses">
+          <div id="aboutgame"></div>
+          <div id="wins">0</div>
+          <div id="losses">0</div>
+        </div>
+    </div>
+    <div id="player-total"></div>
+  </div>  
+  </div>
+  
+
+
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
